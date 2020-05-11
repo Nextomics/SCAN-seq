@@ -30,4 +30,3 @@ python3 /export/pipeline/RNASeq/Software/Pychopper2/v2.0.3/bin/cdna_classifier.p
 genome alignments were performed with the arguments “-ax splice -uf -k14 --secondary=no”
 ```minimap2 -t 10 -ax splice -uf -k14 --secondary=no ~/Reference/Mus_musculus.dna.mmi full_length_output.fq | samtools view -Sb | samtools sort - -o minimap.sort.bam
 ```
-
